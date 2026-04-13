@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transition: 0.5s;
+}
+
+.container {
+    width: 40%;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+.toggle {
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    color: green;
+    font-size: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+    text-align: left;
+    color: red;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Dark Mode */
+.dark {
+    background: #111;
+    color: white;
+}
+
+.dark .container {
+    background: #222;
+}
+.suggestions {
+    margin-top: 20px;
+    text-align: left;
+    color: #007bff;
+}
